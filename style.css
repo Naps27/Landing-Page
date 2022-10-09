@@ -1,5 +1,108 @@
-.header-logo img {
-    width: 84px;
-    height: 84px;
-    margin-right: auto;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+ /* Header */   
+ header{
+    background-color: #1f2937;
+    padding: 2em 10em;
+ }
+
+ h1{
+    font-size: 48px;
+    color: white;
+    font-weight: 900;
+ }
+
+ .secondary,
+ a:link {
+     font-size: 18px;
+     color: #E5E7EB;
+     text-decoration: none;
+ }
+
+button{
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px; 
+    color:white;
+        
+}
+
+main h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #000000;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px #1f2937;
+    font-weight: 300;
+}
+
+img{
+    height: 90px;
+    width: auto;
+    border-radius: 75px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.nav ul {
+    display: flex;
+    gap: 2em;
+    align-items: baseline;
+    margin-top: 10px;
+   
+}
+
+a{
+    color: #E5E7EB;
+}
+
+a.visited {
+    color: inherit;
+}
+
+.welcome{
+    display: flex;
+    padding: 5em;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.welcome .left {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    width: 30%;
+}
+
+.welcome .right {
+    width: 40%;
+
+}
+
+.image{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+
 }
